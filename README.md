@@ -15,7 +15,7 @@ If you exec `git add`, `git-object-trainer` teach you how to construct `git add`
 
 ### Install
 ```shell
-go get github.com/sona-tar/git-object-trainer/
+go get github.com/sonatard/git-object-trainer/
 ```
 
 ### Settings
