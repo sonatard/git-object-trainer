@@ -24,6 +24,7 @@ func main() {
 
 	// git command wrapper
 	gitCmd := exec.Command("git", args...)
+    gitCmd.Stdin = os.Stdin
 	gitCmd.Stdout = os.Stdout
 	gitCmd.Stderr = os.Stderr
 	err = gitCmd.Run()
